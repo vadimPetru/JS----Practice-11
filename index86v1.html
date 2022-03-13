@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('td > img').mouseenter(function () {
+        $(this).toggle();
+      });
+    });
+  </script>
+</head>
+
+<body align="center">
+  <p>Это картинки в таблице!</p>
+  <table align="center">
+    <tr>
+      <td><img src="tiger.jpeg" alt="tiger.jpeg" title="tiger.jpeg"></td>
+    </tr>
+  </table>
+ 
+
+  <p>Обычная картинка</p>
+  
+  <img src="tiger.jpeg" alt="tiger.jpeg" title="tiger.jpeg">
+ 
+
+</html>
